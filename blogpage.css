@@ -4,12 +4,32 @@
 }
 body{
     margin: 0px;
-    background-color:rgba(192, 192, 15, 0.853);
+    background-color: whitesmoke;
 }
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top p{
+    font-size: 30px;
+    padding-right: 1300px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow:2px 4px 3px grey;
+}
+.top a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size:20px;
+    color: black;
+    padding-left: 20px;
+    text-shadow:2px 4px 3px gray;
 
+}
 body header{
-    background-color: rgba(192, 192, 15, 0.853);
-    color: black
+    background-color:whitesmoke;
+    color:black;
 }
 
 body h1{
@@ -17,12 +37,12 @@ body h1{
     font-size: 500%;
     font-family: sans-serif;
     font-weight: 700;
-    text-shadow: 2px 4px 3px black;
+    text-shadow: 2px 4px 3px grey;
 }
 
 nav a{
     background-color: black;
-    color: rgba(192, 192, 15, 0.853);
+    color: whitesmoke;
     display: block;
     text-decoration: none;
     padding: 14px 20px;
@@ -35,22 +55,27 @@ body nav{
     text-align: left;
     overflow: hidden;
 }
-
+.top a:hover{
+    background-color: gray;
+}
+table a:hover{
+    color: gray;
+}
 body main{
     background-color: black;
-    color: rgba(192, 192, 15, 0.853);
+    color: whitesmoke;
     font-family: sans-serif;
     text-align: left;
     font-size: 150%;
 }
 
 body main table,tr,th,td{
-    border: 3px solid rgba(192, 192, 15, 0.853);
-    padding: 20px;
+    border: 3px solid grey;
+    padding: 30px;
 }
 
 body footer{
-    background-color: rgba(192, 192, 15, 0.853);
+    background-color: whitesmoke;
     color: black;
     font-family: sans-serif;
     text-align: right;
